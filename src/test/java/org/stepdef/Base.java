@@ -136,13 +136,5 @@ public static void drapdownvisiblebyvalue(WebElement element,String string) {
 	Select select = new Select(element);
 	select.selectByValue(string);
 	}
-public static void drapdownselectbytext(WebElement element,String string) {
-	Select select = new Select(element);
-	select.selectByVisibleText(string);
-	
-
-}
-
-	
 }
 	
