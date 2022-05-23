@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 19,
+        "name": "validate by filing only mandatory fields",
+        "description": "",
+        "id": "validating-adactin-hotel-username-and-password;validate-by-filing-only-mandatory-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8261944800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user chrome browser launch",
+            "match": {
+              "location": "StepDefinition.userChromeBrowserLaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11830255500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter valid username\"aravinthvenkat\"and password\"123456\"and location\"Brisbane\"and number of rooms\"3\"and check in date \"17/05/2022\"and check out date\"19/05/2022\"and number of adult\"3\"and firstname\"Aravinth\" and lastname\"ssr\"and adress\"viluppuram\" and card number\"1234567890123456\"and cardtype\"MAST\"and Cardexpirymonth\"2\"and cardexpiryyear\"2022\"and cvv number\"123\" and user should click the book now button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aravinthvenkat\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"17/05/2022\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"19/05/2022\"",
+                  "offset": 153
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 184
+                },
+                {
+                  "val": "\"Aravinth\"",
+                  "offset": 200
+                },
+                {
+                  "val": "\"ssr\"",
+                  "offset": 223
+                },
+                {
+                  "val": "\"viluppuram\"",
+                  "offset": 238
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 266
+                },
+                {
+                  "val": "\"MAST\"",
+                  "offset": 296
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 321
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 342
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 362
+                }
+              ],
+              "location": "StepDefinition.userEnterValidUsernameAndPasswordAndLocationAndNumberOfRoomsAndCheckInDateAndCheckOutDateAndNumberOfAdultAndFirstnameAndLastnameAndAdressAndCardNumberAndCardtypeAndCardexpirymonthAndCardexpiryyearAndCvvNumberAndUserShouldClickTheBookNowButton(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      }
+    ],
+    "name": "validating adactin hotel username and password",
+    "description": "",
+    "id": "validating-adactin-hotel-username-and-password",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucu.feature",
+    "tags": []
+  }
+]

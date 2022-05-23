@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.725488">
+<testcase classname="validating adactin hotel username and password" name="validate by filing only mandatory fields" time="17.725488">
+<system-out><![CDATA[Given user chrome browser launch............................................passed
+When user enter valid username"aravinthvenkat"and password"123456"and location"Brisbane"and number of rooms"3"and check in date "17/05/2022"and check out date"19/05/2022"and number of adult"3"and firstname"Aravinth" and lastname"ssr"and adress"viluppuram" and card number"1234567890123456"and cardtype"MAST"and Cardexpirymonth"2"and cardexpiryyear"2022"and cvv number"123" and user should click the book now button.passed
+]]></system-out>
+</testcase>
+</testsuite>

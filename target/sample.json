@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "validate valid username and valid password",
+        "description": "",
+        "id": "validating-adactin-hotel-username-and-password;validate-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7410547100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should launch chrome browser",
+            "match": {
+              "location": "StepDefinition.userShouldLaunchChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12406683400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter valid username\"aravinthvenkat\"and password\"123456\"and location\"Brisbane\"and hotel \"Hotel Hervey\"and roomtype\"Deluxe\"and number of rooms\"3\"and check in date \"17/05/2022\"and check out date\"19/05/2022\"and number of adult\"3\"number of children\"2\"and firstname\"Aravinth\" and lastname\"ssr\"and adress\"viluppuram\"and card number\"1234567890123456\"and cardtype\"MAST\"and Cardexpirymonth\"2\"and cardexpiryyear\"2021\"and cvv number \"123\" \tand",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aravinthvenkat\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 119
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 146
+                },
+                {
+                  "val": "\"17/05/2022\"",
+                  "offset": 167
+                },
+                {
+                  "val": "\"19/05/2022\"",
+                  "offset": 197
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 228
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 249
+                },
+                {
+                  "val": "\"Aravinth\"",
+                  "offset": 265
+                },
+                {
+                  "val": "\"ssr\"",
+                  "offset": 288
+                },
+                {
+                  "val": "\"viluppuram\"",
+                  "offset": 303
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 330
+                },
+                {
+                  "val": "\"MAST\"",
+                  "offset": 360
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 385
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 406
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 427
+                }
+              ],
+              "location": "StepDefinition.userEnterValidUsernameAndPasswordAndLocationAndHotelAndRoomtypeAndNumberOfRoomsAndCheckInDateAndCheckOutDateAndNumberOfAdultNumberOfChildrenAndFirstnameAndLastnameAndAdressAndCardNumberAndCardtypeAndCardexpirymonthAndCardexpiryyearAndCvvNumberAnd(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user click the book now button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      }
+    ],
+    "name": "validating adactin hotel username and password",
+    "description": "",
+    "id": "validating-adactin-hotel-username-and-password",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucu.feature",
+    "tags": []
+  }
+]
